@@ -1,0 +1,15 @@
+.mat-card-header {
+    display: flex;
+     margin-left : 10px;
+     margin-bottom: 14px;
+    /*justify-content: center; /* Centers the title horizontally */
+    /* padding: 0; /* Removes default padding if any */
+}
+
+.custom-card-title {
+    text-align: center; /* Ensures the text is centered */
+}
+.header-image{
+    background-image: url("../../../../assets/computer.png");
+    background-size: cover;
+}

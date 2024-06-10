@@ -1,0 +1,22 @@
+.profile-image{
+    max-width: 150px;
+    max-width: 150px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+.mt20{
+    margin-top: 20px;
+}
+.ml20{
+    margin-top: 20px;
+}
+.table{
+    background-color: azure;
+    font-size:medium;
+    width: 100%;
+    border: 1px rgb(44, 42, 42) ;
+}
+.table tr td{
+    padding: 10px 20px;
+    border: 1px rgb(68, 19, 19) ;
+}

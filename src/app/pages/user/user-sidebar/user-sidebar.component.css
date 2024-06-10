@@ -1,0 +1,7 @@
+.profile-content {
+    display: flex;
+    align-items: center;
+}
+.profile-content mat-icon {
+    margin-right: 4px;
+}

@@ -1,0 +1,50 @@
+<!--<mat-card>
+    <mat-action-list>
+        <div mat-subheader >Menu</div>
+        <button routerLink="/user-dashboard" mat-list-item  >
+            <span class="profile-content">
+            <mat-icon mat-list-icon>home</mat-icon> Home
+            </span>
+        </button>
+
+        <button mat-list-item *ngFor="let c of categories">
+            <span class="profile-content">
+                <mat-icon mat-list-icon>account_circle</mat-icon> {{c.title}}
+            </span>
+        </button>
+
+        
+
+        
+        
+         
+    </mat-action-list>
+</mat-card>-->
+
+<mat-card>
+    <mat-action-list>
+        <div mat-subheader >Menu</div>
+        <button routerLink="/user-dashboard/0" mat-list-item  >
+            <span class="profile-content">
+            <mat-icon mat-list-icon>home</mat-icon> Home
+            </span>
+        </button>
+
+        <button  [routerLink]="'/user-dashboard/' + c.cid " 
+                 mat-list-item *ngFor="let c of categories" >
+                <span class="profile-content">
+                     <mat-icon mat-list-icon>category</mat-icon> {{c.title}}
+                </span>
+        </button>
+        <button   routerLink="/user-dashboard/0" mat-list-item  >
+            <span class="profile-content">
+                <mat-icon mat-list-icon>category</mat-icon> All Quizzes
+            </span>
+        </button>
+        
+
+        
+        
+         
+    </mat-action-list>
+</mat-card>

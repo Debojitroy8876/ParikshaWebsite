@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    align-items: center;
+}
+.content mat-icon {
+    margin-right: 4px;
+}
+.title {
+    line-height: 1.5; /* Adjust the line height for the title */
+    font-weight: bold; /* Optional: Make the title bold for better distinction */
+}
+
+.description {
+    line-height: 1.5; /* Adjust the line height for the description */
+    color: gray; /* Optional: Change the color of the description text */
+}
+
+    .category-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .category-container mat-icon {
+        margin-right: 10px;
+    }
+    
+    .category-container .title {
+        flex: 1;
+        margin-right: 10px;
+    }
+    
+    .category-container .description {
+        flex: 2;
+    }   

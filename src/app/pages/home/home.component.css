@@ -1,0 +1,26 @@
+.bootstrap-wrapper {
+    background-color: lightslategrey;
+     
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1;
+}
+.background-image {
+    background-image: url("/assets/Home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensure the background covers the full viewport height */
+}
+.mt80{
+    margin-top: 80px;
+}
+.large-card {
+    width: 100%; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    margin-bottom: 20px; /* Optional: to add some space between cards */
+    background-color:aliceblue;
+}
